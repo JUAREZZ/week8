@@ -1,0 +1,23 @@
+#!/bin/bash
+#chech device file and permissions
+
+cd /dev 
+
+ls -l
+
+#display list of blocked devices
+
+blkid 
+lsblk
+
+#Change directory to documents and create a file 
+
+Cd documents 
+
+touch week3 
+
+#assing to block device and check list
+
+dd if=/dev/zero of=week3 bs=1024 count=1
+
+ls -ls
