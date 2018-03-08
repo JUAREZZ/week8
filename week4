@@ -7,7 +7,7 @@
  
  # create and mount it to /mnt/tmp
  
- mkdir /mnt/tmp
+ sudo mkdir /mnt/tmp
  
  sudo mount ./24MB.img /mnt/tmp
  
@@ -16,7 +16,9 @@
  lsblk
  
  # umount 
- 
+ sudo fuser -km /mnt/tmp
+
+
  sudo umount /mnt/tmp
  
  # check that is has beem umount
