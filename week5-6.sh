@@ -12,6 +12,8 @@ sudo -s
 
 systemctl --type=service
 
+ls
+
 #change directory and create a service 
 
 cd /etc/systemd/system
