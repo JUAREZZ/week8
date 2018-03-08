@@ -1,5 +1,5 @@
 #!/bin/bash
-#chech device file and permissions
+#check device file and permissions
 
 cd /dev 
 
