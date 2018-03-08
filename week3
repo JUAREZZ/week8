@@ -11,7 +11,7 @@ lsblk
 
 #Change directory to documents and create a file 
 
-Cd documents 
+Cd Documents 
 
 touch week3 
 
