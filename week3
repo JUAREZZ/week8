@@ -7,7 +7,6 @@ ls -l
 
 #display list of blocked devices
 
-blkid 
 lsblk
 
 #Change directory to documents and create a file 
