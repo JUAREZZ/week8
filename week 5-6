@@ -1,6 +1,6 @@
 #!/bin/bash
 
-check runlevel 
+#check runlevel 
 
 who -r
 
