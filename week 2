@@ -4,6 +4,7 @@
 #checks what is your current directory 
 pwd
 
+cd~
 # create 2 directory, change to the directory file1 and create a file
 
 mkdir file1 week2
