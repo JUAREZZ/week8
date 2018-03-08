@@ -33,6 +33,8 @@ ls
 
 cd
 
+ls
+
 rm -r week2 
 
 ls
